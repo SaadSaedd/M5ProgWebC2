@@ -1,0 +1,8 @@
+<h1><?php echo $book['naam']; ?></h1>
+    <div class="book-details">
+        <div class="boek__foto">
+        <img src="<?php echo $book['img']; ?>" alt="<?php echo $book['naam']; ?>">
+        </div>
+        <div class="boek__text"><?php echo $book['text']; ?></div>
+        <div class="boek__catogorie"><?php echo $book['catNaam']; ?></div>
+    </div>
